@@ -1,1 +1,1 @@
-(function(){function a(){return document.getElementById("nhwMiddlegwt-uid-8");};var b=document.getElementsByClassName("txtInput")[0];document.addEventListener("keypress",function(e){if(e.keyCode==32){b.value=a().innerHTML;}});})();
+javascript:(()=>{let d=s=>document.querySelector(s),w=[...d(".inputPanel>tbody>tr>td>table>tbody>tr>td>div>div").childNodes].map(e=>e.innerText).join("").split(" "),i=0;addEventListener("keydown",e=>e.key==" "&&(d(".txtInput").value=w[i++]||""))})()
